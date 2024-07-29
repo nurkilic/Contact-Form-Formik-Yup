@@ -11,10 +11,9 @@ export const RegisterFormSchemas = yup.object().shape({
     .required("This field is required"),
   queryType: yup.string().required("This field is required"),
   message: yup.string().required("This field is required"),
-  
+
   term: yup
     .boolean()
     .oneOf([true], "To submit this form , please consent to being contacted")
     .required("This field is required"),
-
 });

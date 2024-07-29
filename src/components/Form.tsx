@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useFormik } from "formik";
 import { RegisterFormSchemas } from "../schemas/RegisterFormSchemas";
-import { Radio } from "@mui/material";
+
 
 function Form2() {
   const [checkButton, SetCheckButton] = useState([false, false]);

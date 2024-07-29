@@ -1,6 +1,6 @@
 import * as yup from "yup";
 
-import React from "react";
+
 
 export const RegisterFormSchemas = yup.object().shape({
   firstName: yup.string().required("This field is required"),
